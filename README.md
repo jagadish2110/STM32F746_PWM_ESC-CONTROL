@@ -13,5 +13,10 @@
 	5)  Plug-in STM32f controller via usb to pc.
 	6)  pres load tab.
 	7)  after load succesfully just reset board once and your board is ready
+# explanation and calculation for pwm frequency:
+	To run the esc we need to generate the pwm with 50Hz frequency and ON period of duty cuyle is 5% to 10%
+	esc one udersatnd the 1000us to 2000us pwm pulse as input that mean 1000us is zero RPM and 2000us is full RPM
+	
+         
 	
 	
